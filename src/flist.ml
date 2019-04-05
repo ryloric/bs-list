@@ -5,7 +5,7 @@ external lst   : 'a array -> 'a t             = "list"   [@@bs.module "list"] [@
 
 external empty : unit -> 'a t                 = "empty"  [@@bs.module "list"]
 
-external of_   : 'a -> 'a list                   = "of"     [@@bs.module "list"]
+external of_   : 'a -> 'a t                   = "of"     [@@bs.module "list"]
 
 external pair  : 'a -> 'a -> 'a t             = "pair"   [@@bs.module "list"]
 
